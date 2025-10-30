@@ -1,0 +1,58 @@
+ZODIAC INNOVATION — PRIVACY POLICY
+
+Last Updated: October 29, 2025
+
+At Zodiac Innovation, your privacy is our priority. This Privacy Policy
+describes how we handle information when you use our applications and
+services.
+
+1.  INFORMATION WE COLLECT We do not collect, store, or share any
+    personal information. Our applications are designed to function
+    without requiring personally identifiable data such as names, email
+    addresses, phone numbers, location, or device identifiers.
+
+2.  PERMISSIONS Some of our apps may request limited permissions
+    strictly for functionality (for example, access to storage for
+    saving files or camera for in-app content creation). These
+    permissions are used solely within the app for their intended
+    purpose and are never used to collect or transmit personal data.
+
+3.  DATA STORAGE AND SHARING We do not collect or transmit user data to
+    any external servers. All user-generated content remains stored
+    locally on the user’s device unless the user explicitly chooses to
+    share or export data through standard system interfaces. We do not
+    share, sell, or disclose any user information to third parties,
+    advertisers, or affiliates.
+
+4.  THIRD-PARTY SERVICES Our applications do not include third-party
+    analytics, advertising networks, or social tracking tools. If a
+    future app integrates such services, they will comply with
+    applicable laws and require your explicit consent.
+
+5.  CHILDREN’S PRIVACY Our applications are suitable for general
+    audiences. We do not knowingly collect or store any personal data
+    from children under the age of 13 (or the minimum age in your
+    jurisdiction).
+
+6.  INTERNATIONAL COMPLIANCE Zodiac Innovation complies with privacy
+    regulations including:
+
+-   The General Data Protection Regulation (GDPR – European Union)
+-   The California Consumer Privacy Act (CCPA – United States)
+-   COPPA (Children’s Online Privacy Protection Act – United States)
+-   Applicable data protection laws in other jurisdictions where our
+    apps are distributed.
+
+7.  CHANGES TO THIS POLICY We may update this Privacy Policy
+    occasionally to reflect legal, technical, or operational changes.
+    Any updates will be posted with a revised “Last Updated” date.
+
+8.  CONTACT US If you have any questions about this Privacy Policy or
+    our data handling practices, you can contact us at:
+
+Zodiac Innovation
+Email: zodiacinnovations@proton.me
+Location: United States
+
+By using our applications, you acknowledge that you have read and
+understood this Privacy Policy.
