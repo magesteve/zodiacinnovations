@@ -4,20 +4,147 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zodiac Innovation</title>
+  <meta name="description" content="Zodiac Innovation — creative studio building imaginative apps for iPhone, Android, Quest, and beyond." />
   <style>
-    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:#0b0b10;color:#eaeaea}
-    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:2rem}
-    h1{font-size:clamp(2rem,8vw,4rem);margin:.25em 0}
-    p{opacity:.8;font-size:clamp(1rem,3.5vw,1.25rem)}
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+    }
+
+    header img {
+      width: 100%;
+      max-width: 779px;
+      height: auto;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h1, h2 {
+      color: #000;
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3rem);
+      text-align: center;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.25rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .project {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-top: 1rem;
+      background: #fafafa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      border-top: 1px solid #ddd;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive improvements for small screens */
+    @media (max-width: 600px) {
+      main {
+        padding: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <div>
+  <header>
+    <img src="zi-desktop.jpeg" alt="Zodiac Innovation logo banner" width="779" height="194">
+  </header>
+
+  <main>
+    <section id="hero">
       <h1>Zodiac Innovation</h1>
-      <p>Under Development</p>
-      <p>Soon to be expanded</p>
-    </div>
+      <p>We create imaginative software for iPhone, Android, Quest, and beyond.</p>
+      <p>Currently under development — new projects coming soon.</p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p><strong>Zodiac Innovation</strong> is an independent creative studio focused on building thoughtful, cross-platform apps. Founded by Steve Sheets, the company is dedicated to blending technology and artistry — delivering engaging experiences across mobile and immersive environments.</p>
+      <p>Our mission is to craft software that feels both intuitive and inspiring, whether on your phone, tablet, or in mixed reality.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Jasonaut (In Development)</h3>
+        <p>JSON Manipulator for MacOS platform.</p>
+      </div>
+      <div class="project">
+        <h3>Open Game Framework (In Development)</h3>
+        <p>A cross-platform API for creating educational quizzes and trivia contests.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>We’d love to hear from you. For inquiries, collaborations, or press, reach out at:</p>
+      <p><a href="mailto:zodiacinnovations@proton.me">zodiacinnovations@proton.me</a></p>
+      <p>Follow us for updates:</p>
+      <p>
+        <a href="https://www.linkedin.com/company/zodiac-innovations">LinkedIn</a>
+      </p>
+    </section>
   </main>
+
+  <footer>
+    © <span id="year"></span> Zodiac Innovation — All Rights Reserved.
+  </footer>
+
+  <script>
+    // Automatically update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
